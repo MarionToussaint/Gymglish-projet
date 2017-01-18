@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
         String email = etemail.getText().toString();
         String password = etpassword.getText().toString();
         String username = etusername.getText().toString();
-        if (email.isEmpty() && password.isEmpty() && username.isEmpty()){
+        if (email.isEmpty() || password.isEmpty() || username.isEmpty()){
             displayToast("Username/Email/Password field is empty");
         }
         else {
