@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/gg"
+    tools:context="com.example.mmtou.myapplication.UserAreaActivity">
+
+    <TextView
+        android:text="DelavigneCorp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Delavigne"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/CPF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Frantastique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Frantastique"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/verbe"
+        android:layout_alignRight="@+id/CPF"
+        android:layout_alignEnd="@+id/CPF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="CPF Anglais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CPF"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/Frantastique"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:text="LOGOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Logout"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="The Word of the Month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/The_word"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/Rich"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Verbes irréguliers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/verbe"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/The_word"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="Vatefaireconjuguer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Vatefaireconjuguer"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/Delavigne"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Worksweetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Worksweet"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/Vatefaireconjuguer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="Welcome "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:text="The Rich Morning Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rich"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/Gymglish"
+        android:layout_alignLeft="@+id/The_word"
+        android:layout_alignStart="@+id/The_word"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Gymglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gymglish"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Your Websites :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
