@@ -1,3 +1,8 @@
 It's an Android Application which starts with a Login screen and once the user is logged in, a list of some of websites is available. 
 When selecting a website, the WebView load the selected URL.
 
+Username: batman
+Password: 123bat
+
+Username: flash
+Password: 123flash
